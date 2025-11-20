@@ -173,15 +173,20 @@ body {
   background: rgba(255, 111, 154, 0.08);
 }
 
-.btn.whatsapp {
-  background: linear-gradient(135deg, #25d366, #1ebe57);
-  color: #fff;
-  box-shadow: 0 12px 25px rgba(37, 211, 102, 0.32);
+.cta-link {
+  font-weight: 700;
+  color: var(--pink-strong);
+  text-decoration: none;
+  transition: color 0.18s ease;
 }
 
-.btn.whatsapp:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 16px 28px rgba(37, 211, 102, 0.45);
+.cta-link:hover {
+  color: #ff4b8c;
+}
+
+.whatsapp-link {
+  font-size: 0.95rem;
+  letter-spacing: 0.02em;
 }
 
 /* Phones mockup */
